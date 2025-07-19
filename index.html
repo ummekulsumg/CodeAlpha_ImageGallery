@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Image Gallery | Umme Kulsum</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <header>
+    <h1>📷 My Gallery</h1>
+    <div class="controls">
+      <button onclick="toggleDarkMode()">🌓 Toggle Theme</button>
+      <input type="file" id="uploadInput" accept="image/*" onchange="uploadImage()" />
+      <input type="text" id="searchInput" onkeyup="searchImages()" placeholder="🔍 Search..." />
+    </div>
+    <div class="filters">
+      <button onclick="filterImages('all')">All</button>
+      <button onclick="filterImages('nature')">Nature</button>
+      <button onclick="filterImages('tech')">Technology</button>
+      <button onclick="filterImages('art')">Art</button>
+      <button onclick="filterImages('travel')">Travel</button>
+      <button onclick="filterImages('food')">Food</button>
+      <button onclick="filterImages('animals')">Animals</button>
+      <button onclick="filterImages('space')">Space</button>
+    </div>
+  </header>
+
+  <main class="gallery" id="gallery"></main>
+
+  <div id="lightbox" class="lightbox">
+    <span class="close" onclick="closeLightbox()">×</span>
+    <img id="lightboxImg">
+    <div class="nav">
+      <button onclick="prevImage()">⏮️</button>
+      <button onclick="nextImage()">⏭️</button>
+    </div>
+  </div>
+
+  <footer>
+    <p class="credit">Created by <strong>Umme Kulsum</strong> 🌸✨</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
