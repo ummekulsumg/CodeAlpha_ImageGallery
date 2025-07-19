@@ -33,9 +33,8 @@ This is a responsive and interactive image gallery built using HTML, CSS, and Ja
    - Toggle between dark and light mode.
 
 ## 📽️ Project Demo:
-[🔗 Add your LinkedIn video link here or YouTube demo]
+[https://www.linkedin.com/posts/umme-kulsum-6885a0310_imagegallery-codealpha-webdevelopment-activity-7352267920812449792-t51e?utm_source=share&utm_medium=member_android&rcm=ACoAAE8b6cgBsjmmqnSqm2bsNAzYr5xYHBDZIOM ]
 
----
 
 ✅ **Created by Umme Kulsum**  
 🌸✨ *Internship Project with CodeAlpha*
